@@ -1,0 +1,13 @@
+canvas
+{
+    border:5px solid white;
+    border-radius:20px;
+    animation-name:verry;
+    animation-duration:10s;
+    margin-top:50px;
+    animation-iteration-count:infinite;
+}
+@keyframes verry  {
+from{box-shadow:1px 1px 38px red;}
+to {box-shadow:1px 1px 38px black;}
+} 
